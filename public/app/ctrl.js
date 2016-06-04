@@ -1,6 +1,6 @@
 app
 	.controller('formCtrl',['$scope','regService',function($scope,regService){
-		$scope.form.status = "No";
+		
 		$scope.formFunc = function(){
 			console.log($scope.form);
 		regService.update({id:$scope.form.id},$scope.form);
