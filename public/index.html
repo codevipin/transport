@@ -106,9 +106,10 @@
                                         <label class="sr-only" for="number">Phone Number</label>
                                         <input type="number" ng-model="form.number" name="number" placeholder="Phone Number" class="number form-control" id="number">
                                     </div>
-                                    <div class="form-group">
-                                        <select   class="form-control" id="status" ng-model="form.status">
-                                            <option  >Select Marital Status</option>
+                                     <div class="form-group">
+
+                                        <select   class="form-control" id="status" ng-model="form.status" >
+                                            <option disabled ng-selected="true">Select Marital Status</option>
                                             <option >Yes</option>
                                             <option >No</option>
                                           </select>
