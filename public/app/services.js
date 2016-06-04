@@ -2,7 +2,7 @@
 
 app
 
-      .constant("baseURL","http://localhost:3000/")
+      .constant("baseURL","http://localhost:80/")
 
         .service('regService', ['$resource','baseURL',function($resource,baseURL) {
     
